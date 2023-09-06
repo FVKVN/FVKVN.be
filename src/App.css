@@ -45,7 +45,7 @@ h1 {
     margin: 0;
 
     line-height: 1;
-    font-size: 13ch;
+    font-size: max(10ch, 17vw);
     letter-spacing: -.03em;
     text-align: center;
     text-transform: uppercase;
@@ -62,10 +62,4 @@ h1 small {
     line-height: .9;
     text-transform: none;
     font-variation-settings: "wght" 200;
-}
-
-@media (min-width: 992px) {
-    h1 {
-        font-size: max(13rem, 17vw);
-    }
 }
